@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 0 10px;
+}
+.picture{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

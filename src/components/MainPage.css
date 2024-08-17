@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+}
+html::-webkit-scrollbar{
+    width:0.5 rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:darkblue;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.title{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    color:#fff;
+}
